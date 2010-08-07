@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_-JhMoaH-Ed-3Usf_1OhrSw" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_-OcI4KH-Ed-3Usf_1OhrSw" label="com.binge.workforce.app" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_-OcI6KH-Ed-3Usf_1OhrSw">
+      <children xsi:type="advanced:Perspective" xmi:id="_-OlS0KH-Ed-3Usf_1OhrSw">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_-OlS0aH-Ed-3Usf_1OhrSw">
+          <children xsi:type="basic:PartStack" xmi:id="_-OlS0qH-Ed-3Usf_1OhrSw"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_-OcI4aH-Ed-3Usf_1OhrSw" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_-OcI4qH-Ed-3Usf_1OhrSw" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_-OcI46H-Ed-3Usf_1OhrSw" label="Open" iconURI="platform:/plugin/com.binge.workforce.app/icons/sample.gif" command="_-OJN96H-Ed-3Usf_1OhrSw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_-OcI5KH-Ed-3Usf_1OhrSw" label="Save" iconURI="platform:/plugin/com.binge.workforce.app/icons/save_edit.gif" command="_-OJN-qH-Ed-3Usf_1OhrSw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_-OcI5aH-Ed-3Usf_1OhrSw" label="Quit" command="_-OJN86H-Ed-3Usf_1OhrSw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_-OcI5qH-Ed-3Usf_1OhrSw" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_-OcI56H-Ed-3Usf_1OhrSw" label="About" command="_-OJN_aH-Ed-3Usf_1OhrSw"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_-TzKAKH-Ed-3Usf_1OhrSw">
+      <children xsi:type="menu:ToolBar" xmi:id="_-TzKAaH-Ed-3Usf_1OhrSw" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-T87AKH-Ed-3Usf_1OhrSw" iconURI="platform:/plugin/com.binge.workforce.app/icons/sample.gif" command="_-OJN96H-Ed-3Usf_1OhrSw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-T87AaH-Ed-3Usf_1OhrSw" iconURI="platform:/plugin/com.binge.workforce.app/icons/save_edit.gif" command="_-OJN-qH-Ed-3Usf_1OhrSw"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_-OJN9KH-Ed-3Usf_1OhrSw" contributionURI="platform:/plugin/com.binge.workforce.app/com.binge.workforce.app.handlers.QuitHandler" command="_-OJN86H-Ed-3Usf_1OhrSw"/>
+  <handlers xmi:id="_-OJN-KH-Ed-3Usf_1OhrSw" contributionURI="platform:/plugin/com.binge.workforce.app/com.binge.workforce.app.handlers.OpenHandler" command="_-OJN96H-Ed-3Usf_1OhrSw"/>
+  <handlers xmi:id="_-OJN-6H-Ed-3Usf_1OhrSw" contributionURI="platform:/plugin/com.binge.workforce.app/com.binge.workforce.app.handlers.SaveHandler" command="_-OJN-qH-Ed-3Usf_1OhrSw"/>
+  <handlers xmi:id="_-OJN_qH-Ed-3Usf_1OhrSw" contributionURI="platform:/plugin/com.binge.workforce.app/com.binge.workforce.app.handlers.AboutHandler" command="_-OJN_aH-Ed-3Usf_1OhrSw"/>
+  <bindingTables xmi:id="_-OJN9aH-Ed-3Usf_1OhrSw" bindingContextId="org.eclipse.ui.contexts.dialogAndWindow">
+    <bindings xmi:id="_-OJN9qH-Ed-3Usf_1OhrSw" keySequence="Ctrl+Q" command="_-OJN86H-Ed-3Usf_1OhrSw"/>
+    <bindings xmi:id="_-OJN-aH-Ed-3Usf_1OhrSw" keySequence="Ctrl+O" command="_-OJN96H-Ed-3Usf_1OhrSw"/>
+    <bindings xmi:id="_-OJN_KH-Ed-3Usf_1OhrSw" keySequence="Ctrl+S" command="_-OJN-qH-Ed-3Usf_1OhrSw"/>
+    <bindings xmi:id="_-OJN_6H-Ed-3Usf_1OhrSw" keySequence="Ctrl+A" command="_-OJN_aH-Ed-3Usf_1OhrSw"/>
+  </bindingTables>
+  <rootContext xmi:id="_-OJN8KH-Ed-3Usf_1OhrSw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_-OJN8aH-Ed-3Usf_1OhrSw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_-OJN8qH-Ed-3Usf_1OhrSw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <bindingContexts>org.eclipse.ui.contexts.dialogAndWindow</bindingContexts>
+  <commands xmi:id="_-OJN86H-Ed-3Usf_1OhrSw" elementId="com.binge.workforce.app.quitCommand" commandName="quitCommand"/>
+  <commands xmi:id="_-OJN96H-Ed-3Usf_1OhrSw" elementId="com.binge.workforce.app.openCommand" commandName="openCommand"/>
+  <commands xmi:id="_-OJN-qH-Ed-3Usf_1OhrSw" elementId="com.binge.workforce.app.saveCommand" commandName="saveCommand"/>
+  <commands xmi:id="_-OJN_aH-Ed-3Usf_1OhrSw" elementId="com.binge.workforce.app.aboutCommand" commandName="aboutCommand"/>
+</application:Application>
