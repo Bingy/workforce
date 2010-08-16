@@ -5,6 +5,8 @@ Bundle-SymbolicName: com.binge.workforce.services
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.binge.workforce.services.internal.Activator
 Bundle-Vendor: BINGE
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.swt;bundle-version="3.6.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
+Export-Package: com.binge.workforce.services

@@ -18,8 +18,6 @@ import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.ResourcesPlugin;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.Path;
-import org.eclipse.e4.demo.simpleide.dialogs.internal.Messages;
-import org.eclipse.e4.demo.simpleide.services.IImageService;
 import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.jface.viewers.DoubleClickEvent;
 import org.eclipse.jface.viewers.IDoubleClickListener;

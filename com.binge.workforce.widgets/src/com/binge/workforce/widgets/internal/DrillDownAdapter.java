@@ -58,8 +58,6 @@ public class DrillDownAdapter implements ISelectionChangedListener {
 
     private Action forwardAction;
     
-    private IImagePool pool;
-
     /**
      * Allocates a new DrillDownTreePart.
      *

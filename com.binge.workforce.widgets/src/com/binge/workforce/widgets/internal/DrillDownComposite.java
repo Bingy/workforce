@@ -10,7 +10,6 @@
  *******************************************************************************/
 package com.binge.workforce.widgets.internal;
 
-import org.eclipse.e4.demo.simpleide.services.IImageService;
 import org.eclipse.jface.action.ToolBarManager;
 import org.eclipse.jface.viewers.TreeViewer;
 import org.eclipse.swt.SWT;
@@ -18,6 +17,8 @@ import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.ToolBar;
+
+import com.binge.workforce.services.IImageService;
 
 /**
  * Class <code>DrillDownComposite</code> implements a simple web
