@@ -21,6 +21,7 @@ import org.eclipse.e4.ui.workbench.IWorkbench;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.swt.widgets.Shell;
 
+@SuppressWarnings("restriction")
 public class QuitHandler {
 	@Execute
 	public void execute(IWorkbench workbench, IEclipseContext context,
